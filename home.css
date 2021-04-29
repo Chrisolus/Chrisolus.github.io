@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+#main {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+
+.nav {
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 0 8px 3px rgba(115, 27, 27, 0.4);
+    z-index: 1;
+}
+
+.logo {
+    width: 110px;
+    margin-left: -50px;
+}
+
+.logo:hover {
+    transition-duration: 0.2s;
+    box-shadow: 0 0 5px 2px black inset;
+    padding: 2px;
+    width: 108px
+}
+
+a,
+ul,
+li {
+    font-size: 14px;
+    display: flex;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    margin-left: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+a {
+    margin-left: 0;
+}
+
+li {
+    text-align: center;
+    padding: 10px 13px;
+}
+
+li:hover {
+    transition-duration: 0.3s;
+    background-color: rgba(255, 217, 0, 0.822);
+    border-radius: 30px;
+}
+
+.hey {
+    border-bottom: 2px solid #39bfbd;
+    color: #39bfbd;
+    font-size: 18px;
+}
+
+.hey:hover {
+    color: grey;
+    border-color: grey;
+}
+
+a:hover {
+    color: grey;
+}
+
+.content {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+}
+
+.main-text {
+    width: 450px;
+    position: absolute;
+    margin: 200px 800px;
+}
+
+.image img {
+    position: absolute;
+    width: 85%;
+    height: 85%;
+    object-fit: contain;
+}
+
+.resume-btn {
+    float: right;
+    font-style: italic;
+    color: white;
+    font-weight: 550;
+    padding: 18px 32px;
+    border-radius: 60px;
+    background-image: linear-gradient(to right, rgba(255, 10, 255, 0.466), rgba(255, 217, 0, 0.822));
+}
+
+.resume-btn:hover {
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px 5px 2px rgba(115, 27, 27, 0.4);
+    color: white;
+    font-style: normal;
+    background-image: linear-gradient(to right, rgba(255, 217, 0, 0.822), rgba(255, 10, 255, 0.466));
+}
